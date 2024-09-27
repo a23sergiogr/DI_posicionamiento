@@ -1,0 +1,30 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 50%;
+    border-color: #9B2626;
+    border-style:dotted;
+
+    padding: 5%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#azul {
+    border-color: #C96767;
+    border-style:solid;
+    background-color:#E0FFFF;
+    flex-grow: 1;
+}
+
+#amarillo {
+    border-color: #415050;
+    border-style:solid;
+    background-color:#F0E68C;
+    flex-grow: 1;
+}

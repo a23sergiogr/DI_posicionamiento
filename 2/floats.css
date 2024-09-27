@@ -1,0 +1,33 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 50%;
+    border-color: #9B2626;
+    border-style:dotted;
+
+    padding: 5%;
+}
+
+#azul {
+    border-color: #C96767;
+    border-style:solid;
+    background-color:#E0FFFF;
+    width: 49.6%;
+    height: 100%;
+
+    float: left;
+}
+
+#amarillo {
+    border-color: #415050;
+    border-style:solid;
+    background-color:#F0E68C;
+    width: 49.6%;
+    height: 100%;
+
+    float: left;
+}

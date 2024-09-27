@@ -1,0 +1,28 @@
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: 2%;
+    padding: 2%;
+    border-color: #878787;
+    border-style: dotted;
+}
+
+#naranxa, #azul {
+    height: 48%;
+    width: 99%;
+    
+    margin: 0.5%;
+}
+
+#naranxa {
+    background-color: #FF7F50;
+    float: inline-start;
+}
+
+#azul {
+    background-color: #6495ED;
+    float: inline-start;
+}

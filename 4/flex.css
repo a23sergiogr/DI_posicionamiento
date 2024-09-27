@@ -1,0 +1,27 @@
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: 2%;
+    padding: 2%;
+    border-color: #878787;
+    border-style: dotted;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#naranxa, #azul {
+    flex-grow: 1;
+    margin: 5px;
+}
+
+#naranxa {
+    background-color: #FF7F50;
+}
+
+#azul {
+    background-color: #6495ED;
+}

@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#izq, #der {
+    height: 100%;
+    display: grid;
+}
+
+#izq {
+    grid-template-rows: 50% 50%;
+}
+
+#grP {
+    background-color: #4CEBA9;
+}
+
+#izqBtn {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#izqizq {
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+#pink {
+    background-color: #F000FF;
+}
+
+#red {
+    background-color: #FE0000;
+}
+
+#org {
+    background-color: #FF6D00;
+}
+
+#der {
+    grid-template-rows: 20% 70% 10%;
+}
+
+#gr {
+    background-color: #387800;
+}
+
+#blue {
+    background-color: #01509F;
+}
+
+#brown {
+    background-color: #CA9E61;
+}
+
+#brown, #blue, #gr, #org, #red, #pink, #grP {
+    margin: 6px;
+}

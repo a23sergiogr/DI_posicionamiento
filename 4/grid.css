@@ -1,0 +1,26 @@
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: 2%;
+    padding: 2%;
+    border-color: #878787;
+    border-style: dotted;
+
+    display: grid;
+    grid-template-rows: repeat 50% 50%;
+}
+
+#naranxa, #azul {
+    margin: 5px;
+}
+
+#naranxa {
+    background-color: #FF7F50;
+}
+
+#azul {
+    background-color: #6495ED;
+}
