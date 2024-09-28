@@ -1,28 +1,33 @@
-html, body, main {
+html {
     height: 100%;
     width: 100%;
-}
-
-main {
-    margin: 2%;
-    padding: 2%;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    height: calc(100% - 20px);
+    margin: 10px;
     border-color: #878787;
     border-style: dotted;
 }
 
 #naranxa, #azul {
-    height: 48%;
-    width: 99%;
+    height: calc(50% - 30px);
+    width: calc(100% - 40px);
     
-    margin: 0.5%;
+    margin: 20px;
 }
 
 #naranxa {
+    margin-bottom: 10px;
     background-color: #FF7F50;
     float: inline-start;
 }
 
 #azul {
+    margin-top: 10px;
     background-color: #6495ED;
     float: inline-start;
 }

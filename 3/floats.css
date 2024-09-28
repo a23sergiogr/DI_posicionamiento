@@ -20,7 +20,6 @@ body {
 
 
 #izquierda, #dereita {
-    padding: 5px;
     height: 100%;
     width: 50%;
 }
@@ -38,25 +37,27 @@ body {
 }
 
 #Verde {
-    height: 48%;
-    width: calc(100%-20px);
+    height: calc(50% - 20px);
+    width: calc(100% - 20px);
     background-color: green;
 }
 
 #Rojo {
-    height: 48%;
-    width: calc(100%-20px);
+    margin-top: 20px;
+    height: calc(50% - 20px);
+    width: calc(100% - 20px);
     background-color: red;
 }
 
 #Azul {
-    height: 28%;
-    width: calc(100%-20px);
+    height: calc(30% - 20px);
+    width: calc(100% - 20px);
     background-color: blue;
 }
 
 #Morado {
-    height: 68%;
-    width: calc(100%-20px);
+    margin-top: 20px;
+    height: calc(70% - 20px);
+    width: calc(100% - 20px);
     background-color: purple;
 }

@@ -1,9 +1,6 @@
 html {
     height: 100%;
     width: 100%;
-}
-
-html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
@@ -30,11 +27,6 @@ body {
     flex-direction: column;
 }
 
-#Verde, #Rojo, #Azul, #Morado{
-    margin: 10px;
-}
-
-
 #Verde {
     flex-grow: 1;
     background-color: green;
@@ -46,11 +38,15 @@ body {
 }
 
 #Azul {
-    flex-grow: 3;
     background-color: blue;
+    height: calc(30% - 20px);
 }
 
 #Morado {
-    flex-grow: 7;
     background-color: purple;
+    height: calc(70% - 20px);
+}
+
+#Verde, #Rojo, #Azul, #Morado{
+    margin: 10px;
 }

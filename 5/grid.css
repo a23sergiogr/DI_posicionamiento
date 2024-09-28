@@ -1,9 +1,16 @@
-html, body {
+html {
     height: 100%;
     width: 100%;
-}
 
-body {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    height: calc(100% - 20px);
+    margin: 10px;
     display: grid;
     grid-template-columns: 70% 30%;
 }
